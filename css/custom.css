@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.btn-primary {
+  background: #ff9900;
+  border: 0px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: #d37f00;
+}
+
+.btn-secondary {
+  background: none;
+  border: 1px solid #bcd0e5;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #173a56;
+}
+
+.btn-secondary:hover {
+  background: none;
+  border: 1px solid #909ead;
+  color: #173a56;
+}
+
+.herobwa {
+  font-family: "Poppins", sans-serif;
+}
+
+.herobwa h1 {
+  font-weight: 700;
+  color: #2f281e;
+}
+
+.herobwa p {
+  font-weight: 400;
+  color: #2f281e;
+}
+
+.navbar-nav .nav-menu .nav-link {
+  color: #2f281e;
+}
+
+@media (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}
